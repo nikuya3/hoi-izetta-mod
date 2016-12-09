@@ -163,11 +163,15 @@ units = {
 }
 
 air_wings = {
-	### Luftstreitkräfte -- Vienna (full air force, consolidated), CR.32 aircraft
+	### Luftstreitkräfte
 	153 = {
 		fighter_equipment_0 =  {
 			owner = "EYL" 
 			amount = 42
+		}
+		witch_equipment_0 = {
+			owner = "EYL"
+			amount = 1
 		}
 	}
 }
