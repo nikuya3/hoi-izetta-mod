@@ -1,6 +1,6 @@
 ﻿capital = 153
 
-oob = "AUS_1936"
+oob = "EYL_1936"
 
 set_research_slots = 3
 
@@ -17,7 +17,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = {
+		neutrality = {
 			popularity = 90
 		}
 		
@@ -31,7 +31,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1938.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,11 +40,11 @@ set_politics = {
 set_national_unity = 0.50
 
 create_country_leader = {
-	name = "Ortofiné Fredericka von Eylstadt"
+	name = "Ortofiné I."
 	desc = "POLITICS_ORTOFINE_DESC"
 	picture = "Portrait_Eylstadt_Ortofine.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = centrism
 	traits = {
 		#
 	}
@@ -73,8 +73,8 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Karl Schneider"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	name = "Kurt Schneider"
+	portrait_path = "gfx/leaders/EYL/Portrait_Eylstadt_Schneider.dds"
 	traits = { trait_mountaineer trickster }
-	skill = 3
+	skill = 2
 }
