@@ -1,0 +1,40 @@
+﻿###########################
+# Eylstadt Events
+###########################
+
+add_namespace = eylstadt
+
+# Discover Izetta
+country_event = {
+	id = eylstadt.0
+	title = eylstadt.0.t
+	desc = eylstadt.0.d
+	picture = GFX_report_event_EYL_izetta
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = EYL
+		has_war_with = GER
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = eylstadt.0.a
+		#create_equipment_variant = {
+		#	name = "Izetta"
+		#	type = witch_equipment_0
+		#}
+		set_technology = { witch = 1 } 
+		add_equipment_to_stockpile = {
+			type = witch_equipment_0
+			amount = 1
+			producer = EYL
+		}
+	}
+}
