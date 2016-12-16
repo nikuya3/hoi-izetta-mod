@@ -1,4 +1,10 @@
 leader_traits = {
+
+	sick = {
+		random = no
+		unity_weekly = -0.001
+		political_power_factor = -0.25
+	}
 	
 	princess = {
 		random = no

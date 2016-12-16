@@ -308,6 +308,14 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
+	name = "Friedrich Großkopf"
+	picture = "Portrait_Germany_Grosskopf.dds"
+	traits = { trickster panzer_leader }
+	skill = 2
+	id = 32
+}
+
+create_corps_commander = {
 	name = "Friedrich Paulus"
 	picture = "Portrait_Germany_Friedrich_Paulus.dds"
 	traits = {  }

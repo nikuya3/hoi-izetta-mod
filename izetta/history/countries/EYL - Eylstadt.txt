@@ -13,6 +13,8 @@ set_technology = {
 	tech_mountaineers = 1
 	early_fighter = 1
 	CAS1 = 1
+	gwtank = 1
+	tech_maintenance_company = 1
 }
 
 set_politics = {
@@ -40,6 +42,16 @@ set_politics = {
 
 set_national_unity = 0.90
 
+add_ideas = {
+	weisse_hexe
+}
+
+1939.1.1 = {
+	add_ideas = {
+		limited_conscription
+	}
+}
+
 create_country_leader = {
 	name = "Ortofiné I."
 	desc = "POLITICS_ORTOFINE_DESC"
@@ -52,9 +64,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Rudolph I."
+	desc = "POLITICS_RUDOLPH_DESC"
+	picture = "Portrait_Eylstadt_Rudolph.dds"
+	expire = "1940.6.1"
+	ideology = centrism
+	traits = {
+		sick
+	}
+}
+
+create_country_leader = {
 	name = "Siegfried Müller"
 	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	picture = "Portrait_Eylstadt_Muller.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
