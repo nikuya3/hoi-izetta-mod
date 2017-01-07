@@ -1598,6 +1598,16 @@ spriteTypes = {
 		name = "GFX_report_event_EYL_izetta"
 		texturefile = "gfx/event_pictures/report_event_EYL_izetta.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_EYL_rudolph_dead"
+		texturefile = "gfx/event_pictures/report_event_EYL_rudolph_dead.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_286"
+		texturefile = "gfx/event_pictures/news_event_286.dds"
+	}
 }
 
 

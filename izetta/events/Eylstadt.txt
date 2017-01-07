@@ -44,7 +44,7 @@ country_event = {
 	id = eylstadt.1
 	title = eylstadt.1.t
 	desc = eylstadt.1.d
-	picture = GFX_report_event_EYL_izetta
+	picture = GFX_report_event_EYL_rudolph_dead
 	
 	major = yes
 	
