@@ -30,7 +30,7 @@ country_event = {
 		#	name = "Izetta"
 		#	type = witch_equipment_0
 		#}
-		set_technology = { witch = 1 } 
+		set_technology = { witch1 = 1 } 
 		add_equipment_to_stockpile = {
 			type = witch_equipment_0
 			amount = 1

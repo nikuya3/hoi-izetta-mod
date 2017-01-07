@@ -1003,13 +1003,13 @@ technologies = {
 		################
 	}
 	
-	witch = {
+	witch1 = {
 
 		enable_equipments = {
 			witch_equipment_0
 		}
 		
-		research_cost = 999
+		research_cost = 100
 		start_year = 1940
 		folder = {
 			name = air_techs_folder
@@ -1017,7 +1017,8 @@ technologies = {
 		}
 		
 		categories = {
-			witch
+			air_equipment
+			witch_tech
 		}
 		
 		ai_will_do = {

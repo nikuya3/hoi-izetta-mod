@@ -639,7 +639,7 @@
  FRA_cv_fighter_equipment_2_short:0 "D.790"
  FRA_cv_fighter_equipment_3:0 "Dewoitine D.525"
  FRA_cv_fighter_equipment_3_short:0 "D.525"
- witch:0 "Witch"
+ witch1:0 "Witch"
  witch_equipment_desc:0 "Witches are supranatural beeings, which possess a human body, but are able to use magic. This makes them able to both intercept enemy fighters and bombers and to provide close air support to our ground divisions."
  witch_equipment_0:0 "Witch"
  witch_equipment_0_desc:0 "Witches are supranatural beeings, which possess a human body, but are able to use magic. This makes them able to both intercept enemy fighters and bombers and to provide close air support to our ground divisions."

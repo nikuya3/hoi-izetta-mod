@@ -11,15 +11,12 @@ equipments = {
 		# Fighter
 		interface_overview_category_index = 1
 
-		reliability = 1.0
-
-		naval_strike_attack = 1.0
-		naval_strike_targetting = 10.2
+		reliability = 10.0
 
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 1000
+		build_cost_ic = 10000
 		resources = {
 			oil = 0
 			aluminium = 0
@@ -40,6 +37,8 @@ equipments = {
 		air_attack = 100000
 		air_defence = 100000
 		air_ground_attack = 100000
+		naval_strike_attack = 100000
+		naval_strike_targetting = 100000
 
 	}
 }

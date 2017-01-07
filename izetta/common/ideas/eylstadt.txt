@@ -16,4 +16,18 @@ ideas = {
 			}
 		}
 	}
+	
+	political_advisor = {
+		muller = {
+			allowed = {
+				original_tag = EYL
+			}
+			
+			traits = { backroom_backstabber }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 }
