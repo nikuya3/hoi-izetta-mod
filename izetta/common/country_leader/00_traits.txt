@@ -497,6 +497,150 @@ leader_traits = {
 		}
 	}
 
+	exiled_revolutionary = {
+		random = no
+		subversive_activites_upkeep = -0.5
+		drift_defence_factor = 0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	railroad_enthusiast = { #Valentin Campa
+		random = no
+		production_speed_infrastructure_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	strongman_of_san_luis_potosi = { #Saturnino Cedillo
+		random = no
+		army_morale_factor = 0.05
+		political_power_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	revolutionary_general = { #Francisco José Mugica
+		random = no
+		partisan_effect = 0.25
+		mobilization_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		theorist_cost_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	fascist_militia_leader = { #Nicolás Rodríguez Carrasco, probably others too could be used for random fascist leaders
+		random = no
+		war_support_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cristero_general = { #Jesús Degollado Guízar
+		random = no
+		conscription = 0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	primate_of_mexico = { # Luis María Martínez
+		random = no
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	el_jefe_maximo = { #Plutarco Calles
+		random = no
+		political_advisor_cost_factor = -0.25
+		political_power_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	protector_of_the_campesinos = { #communist Cardenas (land reformer)
+		random = no
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_infrastructure_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	refounder_of_mexico = { # democratic Cardenas
+		random = no
+		
+		stability_factor = 0.05
+		trade_opinion_factor = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	the_gentleman_president = { #Manuel Avila Camacho
+		random = no
+		stability_factor = 0.05
+		improve_relations_maintain_cost_factor = -0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_silver_president = { #Juan Andreu
+		random = no
+		consumer_goods_factor = -0.05
+		fascism_acceptance = 50
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	the_dean_of_mexican_marxism = { #Vicente Lombardo
+		random = no
+
+		stability_factor = 0.05
+		industrial_capacity_factory = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	staunch_stalinist = { #Dionisio Encina
+		random = no
+		industrial_capacity_factory = 0.1
+		drift_defence_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	devoted_trotskyist = { #Hernan Laborde Devoted Trotkyist
+		random = no
+		war_support_factor = 0.05
+		subversive_activites_upkeep = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
 	fascist_sympathies = {
 		random = no		
 		fascism_acceptance = 70
